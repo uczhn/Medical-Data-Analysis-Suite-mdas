@@ -1,0 +1,36 @@
+---
+title: "Introduction"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+The following functions have been include in this package
+bivariateAnalysis
+bivariateMosaic
+checkImpute
+checkValidity
+checkVariableNames
+clusterPlot
+correctType
+dataImputation
+discretize
+getClusNumericDesc
+getClusCategoDesc
+getClusterDesc
+hClustCon
+missingAnalysis
+mode
+MRMR
+mutualInfo
+outlierDetection
+plotBeforeAfterImpute
+plotBoxplotGroup
+plotClusterProfile
+plotHeatmapGroup
+plotMissing
+precheck
+univariateAnalysis
+
+
