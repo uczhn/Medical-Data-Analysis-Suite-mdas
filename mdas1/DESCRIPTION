@@ -3,12 +3,11 @@ Title: Medical Data Analysis Suit
 Version: 0.0.1
 Depends: R (>= 2.10)
 Authors@R: c( 
-      person("Henry","Nanji", email="henry.nanji@nottingham.ac.uk",role = "cre"), 
+      person("Henry","Nanji", email = "uczhn@exmail.nottingham.ac.uk",role = "cre"), 
       person("Saisakul ", "Chernbumroong", email = "S.Chernbumroong@bham.ac.uk", role = "aut"))
 Description: Medical data analysis suit contains functions for medical data analysis covering the following areas:
-            data pre-processing (data checking, missing data analysis, and imputation), 
-            data analysis (statistical), stratification (cluster analysis),
-            biomarker identification (feature selection), and predictive modelling.
+            data cleaning (data checking, missing data analysis, and imputation), 
+            data analysis (statistical) and stratification (cluster analysis).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -17,19 +16,7 @@ Suggests:
     knitr,
     rmarkdown,
     spelling,
-    testthat
-VignetteBuilder: knitr
-Imports: 
-    devtools,
-    data.table,
-    mice,
-    missForest,
-    tidyr,
-    ggplot2,
-    gridExtra,
-    FactoMineR,
-    ggsci,
-    reshape2,
+    testthat,
     dplyr,
     partykit,
     rpart.plot,
@@ -45,5 +32,28 @@ Imports:
     RANN,
     fmsb,
     lattice,
-    stats
+    stats,
+    git2r,
+    openssl,
+    rJava,
+    rlang,
+    ModelMetrics,
+    RWekajars,
+    shiny,
+    httr,
+    covr,
+    gh,
+    usethis
+VignetteBuilder: knitr
+Imports: 
+    devtools,
+    data.table,
+    mice,
+    missForest,
+    tidyr,
+    ggplot2,
+    gridExtra,
+    FactoMineR,
+    ggsci,
+    reshape2
 Language: en-US

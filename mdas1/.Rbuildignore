@@ -1,3 +1,5 @@
 ^mdas\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^cran-comments\.md$
+^News\.md$
